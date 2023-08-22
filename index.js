@@ -13,7 +13,7 @@ function startGame() {
         hasBlackJack = true
     } else {
         message = "You're out of the game! 😭"
-        isAlive = false
+        isALive = false
     }
     console.log(message)    
 }
