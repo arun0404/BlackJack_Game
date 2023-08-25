@@ -7,8 +7,11 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 // let messageEl = document.querySelector("#message-el")  #Alternate to getElementById
 let sumEL = document.querySelector("#sum-el")
+let cardsEL = document.getElementById("cards-el")
 
 function startGame() {
+    
+    cardsEL.textContent = "Cards: " + firstCard + " " + secondCard
     sumEL.textContent = "Sum: " + sum
 
     if (sum <= 20) {
